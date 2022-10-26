@@ -1,0 +1,157 @@
+:root {
+    --primary-accent-color: #FF6464;
+    --secondary-accent-color: #00A8CC;
+    --white-color: #FFFFFF;
+    --light-text-color: #8695A4;
+    --dark-text-color: #21243D;
+    --copyright-color: #678398;
+    --section-bg-color: #EDF7FA;
+    --tag-color: #2A326F;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER section */
+
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+
+    color: var(--dark-text-color);
+}
+
+.current,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--primary-accent-color);
+}
+
+/* HERO section */
+
+.hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1,2;
+    color: var(--dark-text-color);
+}
+
+.hero-text {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1,5;
+    color: var(--dark-text-color);
+}
+
+.hero-link {
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2,2;
+    text-align: center;
+
+    color: var(--white-color);
+    background-color: var(--primary-accent-color);
+    border-radius: 4px;
+}
+
+/* .hero-img {
+    display: block;
+} */
+
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1,67;
+
+    color: var(--dark-text-color);
+}
+
+.section-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2,2;
+
+    color: var(--secondary-accent-color);
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    
+    color: var(--dark-text-color);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1,5;
+
+    color: var(--dark-text-color);
+}
+
+.card-text {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1,5;
+
+    color: var(--dark-text-color);
+}
+
+.card-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+
+    color: var(--light-text-color);
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 16px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+
+    color: var(--white-color);
+    background-color: var(--tag-color);
+}
+
+/* FOOTER section */
+
+.copyright-text {
+    font-size: 14px;
+    line-height: 1,2;
+    text-align: center;
+
+    color: var(--copyright-color);
+}
